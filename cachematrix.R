@@ -11,7 +11,7 @@ makeCacheMatrix <- function(x = matrix()) {
         im <- NULL 
        
         # uses lexical scooping to assign values to 'x' and 'im' in the global
-        # environment 
+        # environment. When setom is used, the cached inverse matrix is set to NULL 
         setom  <- function (y){
                 x <<- y
                 im <<- NULL 
