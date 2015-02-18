@@ -1,3 +1,10 @@
+---
+output:
+  pdf_document:
+    toc: yes
+  html_document:
+    toc: yes
+---
 ### Introduction
 
 This second programming assignment will require you to write an R
